@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_sixvalley_ecommerce/features/coupon/domain/models/coupon_item_model.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/date_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/price_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/responsive_helper.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/theme/controllers/theme_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
+import 'package:karingo_v2/features/coupon/domain/models/coupon_item_model.dart';
+import 'package:karingo_v2/helper/date_converter.dart';
+import 'package:karingo_v2/helper/price_converter.dart';
+import 'package:karingo_v2/helper/responsive_helper.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/theme/controllers/theme_controller.dart';
+import 'package:karingo_v2/utill/custom_themes.dart';
+import 'package:karingo_v2/utill/dimensions.dart';
+import 'package:karingo_v2/utill/images.dart';
 import 'package:just_the_tooltip/just_the_tooltip.dart';
 import 'package:provider/provider.dart';
 

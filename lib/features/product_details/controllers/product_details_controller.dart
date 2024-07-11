@@ -1,13 +1,13 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/controllers/seller_product_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product_details/domain/models/product_details_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product_details/domain/services/product_details_service_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/show_custom_snakbar_widget.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/product/controllers/seller_product_controller.dart';
+import 'package:karingo_v2/features/product_details/domain/models/product_details_model.dart';
+import 'package:karingo_v2/features/product_details/domain/services/product_details_service_interface.dart';
+import 'package:karingo_v2/helper/api_checker.dart';
+import 'package:karingo_v2/main.dart';
+import 'package:karingo_v2/common/basewidget/show_custom_snakbar_widget.dart';
 import 'package:provider/provider.dart';
 
 class ProductDetailsController extends ChangeNotifier {

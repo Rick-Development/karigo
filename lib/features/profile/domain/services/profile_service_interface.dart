@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:flutter_sixvalley_ecommerce/features/profile/domain/models/profile_model.dart';
+import 'package:karingo_v2/features/profile/domain/models/profile_model.dart';
 
 abstract class ProfileServiceInterface{
 

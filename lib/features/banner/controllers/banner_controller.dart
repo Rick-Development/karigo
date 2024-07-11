@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/banner/domain/models/banner_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/banner/domain/services/banner_service_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/domain/models/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/screens/brand_and_category_product_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/controllers/shop_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/features/brand/controllers/brand_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/category/controllers/category_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product_details/screens/product_details_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/screens/shop_screen.dart';
+import 'package:karingo_v2/features/banner/domain/models/banner_model.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/banner/domain/services/banner_service_interface.dart';
+import 'package:karingo_v2/features/product/domain/models/product_model.dart';
+import 'package:karingo_v2/features/product/screens/brand_and_category_product_screen.dart';
+import 'package:karingo_v2/features/shop/controllers/shop_controller.dart';
+import 'package:karingo_v2/helper/api_checker.dart';
+import 'package:karingo_v2/features/brand/controllers/brand_controller.dart';
+import 'package:karingo_v2/features/category/controllers/category_controller.dart';
+import 'package:karingo_v2/features/product_details/screens/product_details_screen.dart';
+import 'package:karingo_v2/features/shop/screens/shop_screen.dart';
 import 'package:provider/provider.dart';
 
 class BannerController extends ChangeNotifier {

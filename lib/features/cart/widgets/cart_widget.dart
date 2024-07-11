@@ -1,16 +1,16 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/domain/models/cart_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/widgets/cart_quantity_button_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/price_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/controllers/cart_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/controllers/splash_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/custom_image_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product_details/screens/product_details_screen.dart';
+import 'package:karingo_v2/features/cart/domain/models/cart_model.dart';
+import 'package:karingo_v2/features/cart/widgets/cart_quantity_button_widget.dart';
+import 'package:karingo_v2/helper/price_converter.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/features/cart/controllers/cart_controller.dart';
+import 'package:karingo_v2/features/splash/controllers/splash_controller.dart';
+import 'package:karingo_v2/utill/color_resources.dart';
+import 'package:karingo_v2/utill/custom_themes.dart';
+import 'package:karingo_v2/utill/dimensions.dart';
+import 'package:karingo_v2/common/basewidget/custom_image_widget.dart';
+import 'package:karingo_v2/features/product_details/screens/product_details_screen.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:provider/provider.dart';
 

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/domain/models/login_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/domain/models/register_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/error_response.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/response_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/domain/models/social_login_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/domain/services/auth_service_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/screens/auth_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/controllers/localization_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/show_custom_snakbar_widget.dart';
+import 'package:karingo_v2/features/auth/domain/models/login_model.dart';
+import 'package:karingo_v2/features/auth/domain/models/register_model.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/data/model/error_response.dart';
+import 'package:karingo_v2/data/model/response_model.dart';
+import 'package:karingo_v2/features/auth/domain/models/social_login_model.dart';
+import 'package:karingo_v2/features/auth/domain/services/auth_service_interface.dart';
+import 'package:karingo_v2/features/auth/screens/auth_screen.dart';
+import 'package:karingo_v2/helper/api_checker.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/main.dart';
+import 'package:karingo_v2/localization/controllers/localization_controller.dart';
+import 'package:karingo_v2/common/basewidget/show_custom_snakbar_widget.dart';
 import 'package:provider/provider.dart';
 
 class AuthController with ChangeNotifier {

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/order_details/controllers/order_details_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/order_details/widgets/order_details_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/show_custom_snakbar_widget.dart';
+import 'package:karingo_v2/features/order_details/controllers/order_details_controller.dart';
+import 'package:karingo_v2/features/order_details/widgets/order_details_widget.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/common/basewidget/show_custom_snakbar_widget.dart';
 
 class OrderProductListWidget extends StatelessWidget {
   final OrderDetailsController? order;

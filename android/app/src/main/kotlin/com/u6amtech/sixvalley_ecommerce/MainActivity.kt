@@ -1,4 +1,4 @@
-package com.sixamtech.sixvalley
+package ng.com.rickdevelopment.geniztech.karingo
 
 import io.flutter.embedding.android.FlutterActivity
 

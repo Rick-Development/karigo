@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/domain/models/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/compare/controllers/compare_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/search_product/widgets/partial_matched_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/price_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/controllers/splash_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/theme/controllers/theme_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/custom_app_bar_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/custom_image_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/features/compare/widgets/remove_compare_list_bottom_sheet_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/features/compare/widgets/custom_top_sheet_widget.dart';
+import 'package:karingo_v2/features/product/domain/models/product_model.dart';
+import 'package:karingo_v2/features/compare/controllers/compare_controller.dart';
+import 'package:karingo_v2/features/search_product/widgets/partial_matched_widget.dart';
+import 'package:karingo_v2/helper/price_converter.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/features/splash/controllers/splash_controller.dart';
+import 'package:karingo_v2/theme/controllers/theme_controller.dart';
+import 'package:karingo_v2/utill/color_resources.dart';
+import 'package:karingo_v2/utill/custom_themes.dart';
+import 'package:karingo_v2/utill/dimensions.dart';
+import 'package:karingo_v2/utill/images.dart';
+import 'package:karingo_v2/common/basewidget/custom_app_bar_widget.dart';
+import 'package:karingo_v2/common/basewidget/custom_image_widget.dart';
+import 'package:karingo_v2/features/compare/widgets/remove_compare_list_bottom_sheet_widget.dart';
+import 'package:karingo_v2/features/compare/widgets/custom_top_sheet_widget.dart';
 import 'package:provider/provider.dart';
 
 class CompareProductScreen extends StatefulWidget {

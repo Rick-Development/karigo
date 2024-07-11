@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/domain/models/more_store_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/domain/models/seller_info_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/domain/models/seller_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/domain/services/shop_service_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/shop/domain/models/more_store_model.dart';
+import 'package:karingo_v2/features/shop/domain/models/seller_info_model.dart';
+import 'package:karingo_v2/features/shop/domain/models/seller_model.dart';
+import 'package:karingo_v2/features/shop/domain/services/shop_service_interface.dart';
+import 'package:karingo_v2/helper/api_checker.dart';
 
 class ShopController extends ChangeNotifier {
   final ShopServiceInterface? shopServiceInterface;

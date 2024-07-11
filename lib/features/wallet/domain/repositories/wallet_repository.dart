@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/controllers/splash_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/wallet/domain/repositories/wallet_repository_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/app_constants.dart';
+import 'package:karingo_v2/data/datasource/remote/dio/dio_client.dart';
+import 'package:karingo_v2/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/splash/controllers/splash_controller.dart';
+import 'package:karingo_v2/features/wallet/domain/repositories/wallet_repository_interface.dart';
+import 'package:karingo_v2/main.dart';
+import 'package:karingo_v2/utill/app_constants.dart';
 import 'package:provider/provider.dart';
 
 class WalletRepository implements WalletRepositoryInterface{

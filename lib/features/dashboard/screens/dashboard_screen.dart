@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/dashboard/models/navigation_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/dashboard/widgets/dashboard_menu_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/network_info.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/controllers/splash_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/features/dashboard/widgets/app_exit_card_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/features/chat/screens/inbox_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/features/home/screens/aster_theme_home_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/home/screens/fashion_theme_home_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/home/screens/home_screens.dart';
-import 'package:flutter_sixvalley_ecommerce/features/more/screens/more_screen_view.dart';
-import 'package:flutter_sixvalley_ecommerce/features/order/screens/order_screen.dart';
+import 'package:karingo_v2/features/dashboard/models/navigation_model.dart';
+import 'package:karingo_v2/features/dashboard/widgets/dashboard_menu_widget.dart';
+import 'package:karingo_v2/helper/network_info.dart';
+import 'package:karingo_v2/features/splash/controllers/splash_controller.dart';
+import 'package:karingo_v2/utill/dimensions.dart';
+import 'package:karingo_v2/features/dashboard/widgets/app_exit_card_widget.dart';
+import 'package:karingo_v2/features/chat/screens/inbox_screen.dart';
+import 'package:karingo_v2/utill/images.dart';
+import 'package:karingo_v2/features/home/screens/aster_theme_home_screen.dart';
+import 'package:karingo_v2/features/home/screens/fashion_theme_home_screen.dart';
+import 'package:karingo_v2/features/home/screens/home_screens.dart';
+import 'package:karingo_v2/features/more/screens/more_screen_view.dart';
+import 'package:karingo_v2/features/order/screens/order_screen.dart';
 import 'package:provider/provider.dart';
 
 

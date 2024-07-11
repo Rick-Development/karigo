@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/category/domain/models/category_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/category/domain/services/category_service_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/controllers/seller_product_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/features/brand/controllers/brand_controller.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/category/domain/models/category_model.dart';
+import 'package:karingo_v2/features/category/domain/services/category_service_interface.dart';
+import 'package:karingo_v2/features/product/controllers/seller_product_controller.dart';
+import 'package:karingo_v2/helper/api_checker.dart';
+import 'package:karingo_v2/main.dart';
+import 'package:karingo_v2/features/brand/controllers/brand_controller.dart';
 import 'package:provider/provider.dart';
 
 class CategoryController extends ChangeNotifier {

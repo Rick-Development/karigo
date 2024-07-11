@@ -1,11 +1,11 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_sixvalley_ecommerce/features/compare/domain/models/attribute_model.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/compare/domain/models/compare_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/compare/domain/services/compare_service_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/show_custom_snakbar_widget.dart';
+import 'package:karingo_v2/features/compare/domain/models/attribute_model.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/compare/domain/models/compare_model.dart';
+import 'package:karingo_v2/features/compare/domain/services/compare_service_interface.dart';
+import 'package:karingo_v2/helper/api_checker.dart';
+import 'package:karingo_v2/main.dart';
+import 'package:karingo_v2/common/basewidget/show_custom_snakbar_widget.dart';
 
 
 class CompareController extends ChangeNotifier {

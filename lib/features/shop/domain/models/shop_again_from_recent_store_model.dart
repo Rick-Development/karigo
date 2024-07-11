@@ -1,4 +1,4 @@
-import 'package:flutter_sixvalley_ecommerce/features/shop/domain/models/seller_model.dart';
+import 'package:karingo_v2/features/shop/domain/models/seller_model.dart';
 
 class ShopAgainFromRecentStoreModel {
   int? id;

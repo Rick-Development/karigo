@@ -1,9 +1,9 @@
 
 import 'package:card_swiper/card_swiper.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/controllers/product_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/domain/models/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/home/widgets/just_for_you/just_for_you_product_card_widget.dart';
+import 'package:karingo_v2/features/product/controllers/product_controller.dart';
+import 'package:karingo_v2/features/product/domain/models/product_model.dart';
+import 'package:karingo_v2/features/home/widgets/just_for_you/just_for_you_product_card_widget.dart';
 import 'package:provider/provider.dart';
 
 class JustForYouView extends StatefulWidget {

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/loyaltyPoint/domain/models/loyalty_point_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/loyaltyPoint/domain/services/loyalty_point_service_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/show_custom_snakbar_widget.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/loyaltyPoint/domain/models/loyalty_point_model.dart';
+import 'package:karingo_v2/features/loyaltyPoint/domain/services/loyalty_point_service_interface.dart';
+import 'package:karingo_v2/helper/api_checker.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/main.dart';
+import 'package:karingo_v2/common/basewidget/show_custom_snakbar_widget.dart';
 
 class LoyaltyPointController extends ChangeNotifier {
   final LoyaltyPointServiceInterface loyaltyPointServiceInterface;

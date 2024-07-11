@@ -1,11 +1,11 @@
 import 'dart:developer';
-import 'package:flutter_sixvalley_ecommerce/features/cart/domain/models/cart_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/domain/repositories/cart_repository_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/domain/services/cart_service_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/domain/models/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shipping/controllers/shipping_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/controllers/splash_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
+import 'package:karingo_v2/features/cart/domain/models/cart_model.dart';
+import 'package:karingo_v2/features/cart/domain/repositories/cart_repository_interface.dart';
+import 'package:karingo_v2/features/cart/domain/services/cart_service_interface.dart';
+import 'package:karingo_v2/features/product/domain/models/product_model.dart';
+import 'package:karingo_v2/features/shipping/controllers/shipping_controller.dart';
+import 'package:karingo_v2/features/splash/controllers/splash_controller.dart';
+import 'package:karingo_v2/main.dart';
 import 'package:provider/provider.dart';
 
 class CartService implements CartServiceInterface{

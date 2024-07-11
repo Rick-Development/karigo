@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
+import 'package:karingo_v2/utill/color_resources.dart';
 
 class SplashShapeWidget extends CustomPainter {
   @override

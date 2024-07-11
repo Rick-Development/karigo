@@ -1,4 +1,4 @@
-import 'package:flutter_sixvalley_ecommerce/features/product/domain/models/product_model.dart';
+import 'package:karingo_v2/features/product/domain/models/product_model.dart';
 
 class HomeCategoryProduct {
   int? id;

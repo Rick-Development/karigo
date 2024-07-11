@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/category/controllers/category_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/category/widgets/category_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/screens/brand_and_category_product_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/controllers/localization_controller.dart';
+import 'package:karingo_v2/features/category/controllers/category_controller.dart';
+import 'package:karingo_v2/features/category/widgets/category_widget.dart';
+import 'package:karingo_v2/features/product/screens/brand_and_category_product_screen.dart';
+import 'package:karingo_v2/localization/controllers/localization_controller.dart';
 import 'package:provider/provider.dart';
 
 import 'category_shimmer_widget.dart';

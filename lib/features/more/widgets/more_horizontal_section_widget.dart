@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/more/widgets/square_item_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/features/wallet/screens/wallet_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/wishlist/controllers/wishlist_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/wishlist/screens/wishlist_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/responsive_helper.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/controllers/cart_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/controllers/auth_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/profile/controllers/profile_contrroller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/controllers/splash_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/screens/cart_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/loyaltyPoint/screens/loyalty_point_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/banner/screens/offers_banner_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/order/screens/order_screen.dart';
+import 'package:karingo_v2/features/more/widgets/square_item_widget.dart';
+import 'package:karingo_v2/features/wallet/screens/wallet_screen.dart';
+import 'package:karingo_v2/features/wishlist/controllers/wishlist_controller.dart';
+import 'package:karingo_v2/features/wishlist/screens/wishlist_screen.dart';
+import 'package:karingo_v2/helper/responsive_helper.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/features/cart/controllers/cart_controller.dart';
+import 'package:karingo_v2/features/auth/controllers/auth_controller.dart';
+import 'package:karingo_v2/features/profile/controllers/profile_contrroller.dart';
+import 'package:karingo_v2/features/splash/controllers/splash_controller.dart';
+import 'package:karingo_v2/utill/dimensions.dart';
+import 'package:karingo_v2/utill/images.dart';
+import 'package:karingo_v2/features/cart/screens/cart_screen.dart';
+import 'package:karingo_v2/features/loyaltyPoint/screens/loyalty_point_screen.dart';
+import 'package:karingo_v2/features/banner/screens/offers_banner_screen.dart';
+import 'package:karingo_v2/features/order/screens/order_screen.dart';
 import 'package:provider/provider.dart';
 
 class MoreHorizontalSection extends StatelessWidget {

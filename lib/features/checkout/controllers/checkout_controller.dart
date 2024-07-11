@@ -1,13 +1,13 @@
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/checkout/domain/services/checkout_service_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/features/offline_payment/domain/models/offline_payment_model.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/api_checker.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/checkout/domain/services/checkout_service_interface.dart';
+import 'package:karingo_v2/features/offline_payment/domain/models/offline_payment_model.dart';
+import 'package:karingo_v2/helper/api_checker.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/main.dart';
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/show_custom_snakbar_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/features/checkout/screens/digital_payment_order_place_screen.dart';
+import 'package:karingo_v2/common/basewidget/show_custom_snakbar_widget.dart';
+import 'package:karingo_v2/features/checkout/screens/digital_payment_order_place_screen.dart';
 
 
 

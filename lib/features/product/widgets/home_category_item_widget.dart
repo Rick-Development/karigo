@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/domain/models/home_category_product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/screens/brand_and_category_product_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product_details/screens/product_details_screen.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/responsive_helper.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/product_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/title_row_widget.dart';
+import 'package:karingo_v2/features/product/domain/models/home_category_product_model.dart';
+import 'package:karingo_v2/features/product/screens/brand_and_category_product_screen.dart';
+import 'package:karingo_v2/features/product_details/screens/product_details_screen.dart';
+import 'package:karingo_v2/helper/responsive_helper.dart';
+import 'package:karingo_v2/utill/dimensions.dart';
+import 'package:karingo_v2/common/basewidget/product_widget.dart';
+import 'package:karingo_v2/common/basewidget/title_row_widget.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 class HomeCategoryProductItemWidget extends StatelessWidget {

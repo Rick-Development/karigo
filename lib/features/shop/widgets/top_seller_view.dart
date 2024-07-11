@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/common/basewidget/paginated_list_view_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/controllers/shop_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/widgets/seller_shimmer.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/widgets/top_seller_shimmer.dart';
-import 'package:flutter_sixvalley_ecommerce/features/shop/widgets/seller_card.dart';
-import 'package:flutter_sixvalley_ecommerce/features/splash/domain/models/config_model.dart';
+import 'package:karingo_v2/common/basewidget/paginated_list_view_widget.dart';
+import 'package:karingo_v2/features/shop/controllers/shop_controller.dart';
+import 'package:karingo_v2/features/shop/widgets/seller_shimmer.dart';
+import 'package:karingo_v2/features/shop/widgets/top_seller_shimmer.dart';
+import 'package:karingo_v2/features/shop/widgets/seller_card.dart';
 import 'package:provider/provider.dart';
 
 

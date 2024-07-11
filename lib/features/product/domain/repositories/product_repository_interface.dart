@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/enums/product_type.dart';
-import 'package:flutter_sixvalley_ecommerce/interface/repo_interface.dart';
+import 'package:karingo_v2/features/product/enums/product_type.dart';
+import 'package:karingo_v2/interface/repo_interface.dart';
 
 abstract class ProductRepositoryInterface<T> extends RepositoryInterface{
 

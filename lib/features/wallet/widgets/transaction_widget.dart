@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/wallet/domain/models/transaction_model.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/date_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/helper/price_converter.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/color_resources.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
+import 'package:karingo_v2/features/wallet/domain/models/transaction_model.dart';
+import 'package:karingo_v2/helper/date_converter.dart';
+import 'package:karingo_v2/helper/price_converter.dart';
+import 'package:karingo_v2/utill/color_resources.dart';
+import 'package:karingo_v2/utill/custom_themes.dart';
+import 'package:karingo_v2/utill/dimensions.dart';
+import 'package:karingo_v2/utill/images.dart';
 
 
 class TransactionWidget extends StatelessWidget {

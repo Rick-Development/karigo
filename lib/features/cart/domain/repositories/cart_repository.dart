@@ -1,13 +1,13 @@
 
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/dio/dio_client.dart';
-import 'package:flutter_sixvalley_ecommerce/data/datasource/remote/exception/api_error_handler.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/domain/models/cart_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/cart/domain/repositories/cart_repository_interface.dart';
-import 'package:flutter_sixvalley_ecommerce/features/product/domain/models/product_model.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
-import 'package:flutter_sixvalley_ecommerce/features/auth/controllers/auth_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/app_constants.dart';
+import 'package:karingo_v2/data/datasource/remote/dio/dio_client.dart';
+import 'package:karingo_v2/data/datasource/remote/exception/api_error_handler.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/cart/domain/models/cart_model.dart';
+import 'package:karingo_v2/features/cart/domain/repositories/cart_repository_interface.dart';
+import 'package:karingo_v2/features/product/domain/models/product_model.dart';
+import 'package:karingo_v2/main.dart';
+import 'package:karingo_v2/features/auth/controllers/auth_controller.dart';
+import 'package:karingo_v2/utill/app_constants.dart';
 import 'package:provider/provider.dart';
 
 

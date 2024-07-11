@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/order_details/controllers/order_details_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/features/order_details/widgets/icon_with_text_row_widget.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/theme/controllers/theme_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/custom_themes.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/images.dart';
+import 'package:karingo_v2/features/order_details/controllers/order_details_controller.dart';
+import 'package:karingo_v2/features/order_details/widgets/icon_with_text_row_widget.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/theme/controllers/theme_controller.dart';
+import 'package:karingo_v2/utill/custom_themes.dart';
+import 'package:karingo_v2/utill/dimensions.dart';
+import 'package:karingo_v2/utill/images.dart';
 import 'package:provider/provider.dart';
 
 class ShippingAndBillingWidget extends StatelessWidget {

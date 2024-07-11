@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:flutter_sixvalley_ecommerce/features/profile/domain/models/profile_model.dart';
-import 'package:flutter_sixvalley_ecommerce/interface/repo_interface.dart';
+import 'package:karingo_v2/features/profile/domain/models/profile_model.dart';
+import 'package:karingo_v2/interface/repo_interface.dart';
 
 abstract class ProfileRepositoryInterface implements RepositoryInterface{
 

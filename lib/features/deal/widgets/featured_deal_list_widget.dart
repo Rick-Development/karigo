@@ -1,9 +1,9 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/features/deal/controllers/featured_deal_controller.dart';
-import 'package:flutter_sixvalley_ecommerce/utill/dimensions.dart';
-import 'package:flutter_sixvalley_ecommerce/features/home/widgets/aster_theme/find_what_you_need_shimmer.dart';
-import 'package:flutter_sixvalley_ecommerce/features/deal/widgets/featured_deal_card_widget.dart';
+import 'package:karingo_v2/features/deal/controllers/featured_deal_controller.dart';
+import 'package:karingo_v2/utill/dimensions.dart';
+import 'package:karingo_v2/features/home/widgets/aster_theme/find_what_you_need_shimmer.dart';
+import 'package:karingo_v2/features/deal/widgets/featured_deal_card_widget.dart';
 import 'package:provider/provider.dart';
 
 

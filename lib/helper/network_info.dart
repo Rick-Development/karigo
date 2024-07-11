@@ -3,8 +3,8 @@ import 'dart:io';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/localization/language_constrants.dart';
-import 'package:flutter_sixvalley_ecommerce/main.dart';
+import 'package:karingo_v2/localization/language_constrants.dart';
+import 'package:karingo_v2/main.dart';
 
 class NetworkInfo {
   final Connectivity? connectivity;

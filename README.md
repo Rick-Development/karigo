@@ -1,4 +1,4 @@
-# flutter_sixvalley_ecommerce
+# karingo_v2
 
 A new Flutter setup application for starting a project.
 

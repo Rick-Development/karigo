@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sixvalley_ecommerce/data/model/api_response.dart';
-import 'package:flutter_sixvalley_ecommerce/features/brand/domain/models/brand_model.dart';
-import 'package:flutter_sixvalley_ecommerce/features/brand/domain/repositories/brand_repository.dart';
+import 'package:karingo_v2/data/model/api_response.dart';
+import 'package:karingo_v2/features/brand/domain/models/brand_model.dart';
+import 'package:karingo_v2/features/brand/domain/repositories/brand_repository.dart';
 
 class BrandController extends ChangeNotifier {
   final BrandRepository? brandRepo;
